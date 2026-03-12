@@ -26,10 +26,48 @@ export default function Home() {
       </nav>
 
       {/* ─── HERO ─── */}
-      <section className="max-w-[1140px] mx-auto px-8 md:px-16 pt-10 md:pt-14 pb-20 md:pb-28">
-        <div className="flex flex-col md:flex-row items-start gap-8 md:gap-0 relative">
-          {/* Text — left */}
-          <div className="flex-1 md:max-w-[55%] relative z-10">
+      <section className="relative overflow-hidden">
+        {/* Honeycomb background — positioned behind everything */}
+        <div className="absolute top-0 right-0 w-[65%] h-full pointer-events-none">
+          <div className="relative w-full h-full">
+            <Image
+              src="/honeycomb.png"
+              alt=""
+              width={1792}
+              height={2358}
+              className="absolute top-[-50px] right-[-30px] w-[650px] h-auto opacity-[0.12]"
+              priority
+              aria-hidden="true"
+            />
+            {/* Main honeycomb — more opaque, slightly inset */}
+            <Image
+              src="/honeycomb.png"
+              alt="Honeycomb illustration"
+              width={1792}
+              height={2358}
+              className="absolute top-[-10px] right-[20px] w-[460px] h-auto"
+              priority
+            />
+          </div>
+          {/* Left fade gradient to blend into cream bg */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(to right, #F7F4EF 0%, #F7F4EF 15%, transparent 50%)",
+            }}
+          />
+          {/* Bottom fade */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(to top, #F7F4EF 0%, transparent 30%)",
+            }}
+          />
+        </div>
+
+        {/* Hero content — floats over the honeycomb */}
+        <div className="max-w-[1140px] mx-auto px-8 md:px-16 pt-10 md:pt-14 pb-24 md:pb-32 relative z-10">
+          <div className="max-w-[520px]">
             <h1
               className="font-serif font-bold text-[2.5rem] md:text-[3.25rem] leading-[1.08] text-text-primary"
               style={{ fontStyle: "normal" }}
@@ -49,18 +87,6 @@ export default function Home() {
             >
               Get started in →
             </a>
-          </div>
-
-          {/* Honeycomb illustration — cropped from mockup, upscaled */}
-          <div className="md:absolute md:right-0 md:top-[-20px] md:w-[44%] flex justify-end overflow-hidden" style={{ maxHeight: "420px" }}>
-            <Image
-              src="/honeycomb.png"
-              alt="Honeycomb illustration representing multiplication and growth"
-              width={600}
-              height={790}
-              className="w-full h-auto max-w-[380px]"
-              priority
-            />
           </div>
         </div>
       </section>
