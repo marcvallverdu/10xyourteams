@@ -7,42 +7,37 @@ interface SparklineProps {
 export default function Sparkline({ direction }: SparklineProps) {
   if (direction === "down") {
     return (
-      <svg viewBox="0 0 130 50" className="w-[130px] h-[50px]" fill="none">
-        {/* Gray declining line with sharp angles */}
+      <svg viewBox="0 0 400 60" className="w-full h-[60px]" fill="none" preserveAspectRatio="none">
         <path
-          d="M5 10 L15 8 L28 15 L38 12 L48 20 L58 18 L68 28 L78 25 L88 32 L98 35 L108 38"
+          d="M0 12 L30 10 L60 18 L90 14 L120 22 L150 19 L180 28 L210 25 L240 33 L270 36 L300 40 L330 44 L360 48"
           stroke="#777777"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-        {/* Terracotta final segment continuing down */}
         <path
-          d="M108 38 L118 42 L125 46"
+          d="M360 48 L380 52 L400 56"
           stroke="#C0704A"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-        {/* Small downward arrow */}
-        <polygon points="125,46 121,41 128,43" fill="#C0704A" />
+        <polygon points="400,56 394,50 398,54" fill="#C0704A" />
       </svg>
     );
   }
 
   return (
-    <svg viewBox="0 0 130 50" className="w-[130px] h-[50px]" fill="none">
-      {/* Gray flat-ish line start */}
+    <svg viewBox="0 0 400 60" className="w-full h-[60px]" fill="none" preserveAspectRatio="none">
       <path
-        d="M5 38 L15 36 L28 37 L38 34 L48 35 L58 32 L68 30"
+        d="M0 50 L30 48 L60 49 L90 46 L120 47 L150 44 L180 42 L210 40"
         stroke="#777777"
         strokeWidth="2.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      {/* Terracotta hockey-stick upward */}
       <path
-        d="M68 30 L78 25 L88 18 L98 12 L108 7 L118 4 L125 3"
+        d="M210 40 L240 34 L270 26 L300 18 L330 12 L360 7 L400 3"
         stroke="#C0704A"
         strokeWidth="2.5"
         strokeLinecap="round"
