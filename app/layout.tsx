@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "10xyourteams.co — Stop Cutting. Start Multiplying.",
+  title: "10xyourteams.com — Stop Cutting. Start Multiplying.",
   description:
     "We help ops leaders build 10x teams with AI. Directive, Measurement, Enablement — the three pillars of AI transformation.",
 };

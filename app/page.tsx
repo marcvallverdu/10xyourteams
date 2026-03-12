@@ -7,7 +7,7 @@ export default function Home() {
       {/* ─── NAVIGATION ─── */}
       <nav className="max-w-[1140px] mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
         <span className="font-serif font-bold text-[18px] text-text-primary">
-          10xyourteams.co
+          10xyourteams.com
         </span>
         <div className="flex items-center gap-5">
           <a
@@ -219,7 +219,7 @@ export default function Home() {
             {/* Brand */}
             <div>
               <span className="font-serif font-bold text-xl text-text-primary">
-                10xyourteams.co
+                10xyourteams.com
               </span>
               <p className="mt-1 text-[14px] text-text-body">
                 Exponential growth through AI-augmented teams
@@ -269,9 +269,9 @@ export default function Home() {
         {/* Sub-footer */}
         <div className="border-t border-text-body/20">
           <div className="max-w-[1140px] mx-auto px-8 md:px-16 py-4 flex justify-between items-center">
-            <span className="text-[13px] text-text-body">10xyourteams.co</span>
+            <span className="text-[13px] text-text-body">10xyourteams.com</span>
             <span className="text-[13px] text-text-body">
-              10xyourteams.co
+              10xyourteams.com
             </span>
           </div>
         </div>
