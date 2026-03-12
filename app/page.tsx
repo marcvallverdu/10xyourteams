@@ -44,8 +44,12 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[480px] leading-[1.55]">
-              Built by a COO restructuring a 1,000-person company with AI. Not
-              advising on it — doing it. We turned the playbook into a service.
+              Your teams already have the talent. We find what&apos;s holding
+              them back and redesign how they work — so every person delivers
+              10x what they do today.
+            </p>
+            <p className="mt-3 text-[14px] text-[#8A95A8]">
+              Built by a COO doing this inside a 1,000-person company right now.
             </p>
             <a
               href="#contact"
@@ -65,17 +69,17 @@ export default function Home() {
               {
                 num: "01",
                 title: "Map the Work",
-                body: "We sit inside your teams and map every workflow to the task level. What requires human judgment? What's mechanical? What shouldn't exist at all? Most companies skip this — and wonder why their AI rollout stalls at ChatGPT licences.",
+                body: "We sit inside your teams and map every workflow to the task level. What requires human judgment? What's mechanical? What shouldn't exist at all? You can't amplify what you haven't measured.",
               },
               {
                 num: "02",
                 title: "Redesign the Roles",
-                body: "We rebuild role definitions, team structures, and workflows around AI — not bolted on top. You get a new operating model where every person does work that actually needs a person.",
+                body: "We restructure roles and workflows around AI — so your people spend their time on judgment, creativity, and decisions. Not coordination, not data entry, not process.",
               },
               {
                 num: "03",
-                title: "Build the Team",
-                body: "We identify who to build around, who to redeploy, and who to upskill. Using a three-type assessment — Champions who find opportunities, Superstars who make them happen, Key People who run the leaner org.",
+                title: "Unlock the People",
+                body: "We identify your Champions, Superstars, and Key People — and put each in the right seat. The talent is already there. We make sure it's amplified, not buried under the wrong work.",
               },
             ].map((card) => (
               <div
@@ -98,8 +102,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHAT CHANGES (cream) ─── */}
-      <section className="bg-cream pb-20 md:pb-24">
+      {/* ─── WHAT CHANGES (cream — slightly warmer) ─── */}
+      <section className="bg-cream-dark py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-10">
             What changes
@@ -130,7 +134,7 @@ export default function Home() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "1 person, 3 days, same feature",
+                  "1 person, 3 days — same feature, same quality",
                   "Managers make decisions — coordination is automated",
                   "AI is the operating model, not an add-on",
                 ].map((item, i) => (
@@ -147,8 +151,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── THE FRAMEWORK (navy) ─── */}
-      <section className="bg-navy py-20 md:py-28">
+      {/* ─── THE FRAMEWORK (muted blue-gray — not full navy) ─── */}
+      <section className="bg-framework py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.2rem] md:text-[2.8rem] text-white mb-4 max-w-[600px]">
             Most AI transformations fail because they&apos;re missing one of
@@ -169,11 +173,14 @@ export default function Home() {
                 body: "Do your teams have the tools, the data access, and the permission to redesign how they work? Most companies hand out AI licences and call it a strategy.",
               },
             ].map((pillar) => (
-              <div key={pillar.title} className="border-t-2 border-terracotta pt-6">
+              <div
+                key={pillar.title}
+                className="border-t-2 border-terracotta pt-6"
+              >
                 <h3 className="font-sans font-bold text-[22px] text-white mb-3">
                   {pillar.title}
                 </h3>
-                <p className="text-[15px] text-[#A0AABB] leading-[1.6]">
+                <p className="text-[15px] text-[#B0B8C8] leading-[1.6]">
                   {pillar.body}
                 </p>
               </div>
@@ -200,11 +207,13 @@ export default function Home() {
               <p>
                 You&apos;ve been told to &ldquo;figure out AI.&rdquo;
                 You&apos;ve run the pilots. You&apos;ve bought the tools. But
-                the org chart looks the same as it did two years ago.
+                the org chart looks the same as it did two years ago — and
+                your people are doing the same work, just with a chatbot open
+                in another tab.
               </p>
               <p className="text-navy font-semibold">
-                You don&apos;t need another AI strategy deck. You need someone
-                who&apos;s already rebuilt the machine — and can show you
+                You don&apos;t need another strategy deck. You need someone
+                who&apos;s already amplified their own teams — and can show you
                 exactly how.
               </p>
             </div>
