@@ -67,9 +67,9 @@ export default function Home() {
 
         {/* Hero content — floats over the honeycomb */}
         <div className="max-w-[1140px] mx-auto px-8 md:px-16 pt-10 md:pt-14 pb-24 md:pb-32 relative z-10">
-          <div className="max-w-[520px]">
+          <div className="max-w-[600px]">
             <h1
-              className="font-serif font-bold text-[2.5rem] md:text-[3.25rem] leading-[1.08] text-text-primary"
+              className="font-serif font-bold text-[3rem] md:text-[4rem] leading-[1.08] text-text-primary"
               style={{ fontStyle: "normal" }}
             >
               Stop Cutting.
