@@ -3,6 +3,8 @@
 @theme {
   --color-page-bg: #F7F4EF;
   --color-card-bg: #FFFFFF;
+  --color-navy: #1B2A4A;
+  --color-navy-dark: #141F38;
   --color-text-primary: #2B2520;
   --color-text-body: #6B635B;
   --color-terracotta: #C0704A;
@@ -13,6 +15,7 @@
 
   --font-serif: var(--font-playfair), Georgia, serif;
   --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-display: var(--font-anton), Impact, sans-serif;
 }
 
 body {
