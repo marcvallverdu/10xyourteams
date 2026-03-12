@@ -1,4 +1,4 @@
-import Honeycomb from "./components/Honeycomb";
+import Image from "next/image";
 import Sparkline from "./components/Sparkline";
 
 export default function Home() {
@@ -51,9 +51,16 @@ export default function Home() {
             </a>
           </div>
 
-          {/* Honeycomb — right, large, extends vertically */}
-          <div className="md:absolute md:right-0 md:top-[-40px] md:w-[48%] flex justify-end">
-            <Honeycomb />
+          {/* Honeycomb illustration — cropped from mockup, upscaled */}
+          <div className="md:absolute md:right-0 md:top-[-20px] md:w-[44%] flex justify-end overflow-hidden" style={{ maxHeight: "420px" }}>
+            <Image
+              src="/honeycomb.png"
+              alt="Honeycomb illustration representing multiplication and growth"
+              width={600}
+              height={790}
+              className="w-full h-auto max-w-[380px]"
+              priority
+            />
           </div>
         </div>
       </section>
