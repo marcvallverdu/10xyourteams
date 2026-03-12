@@ -7,49 +7,47 @@ interface SparklineProps {
 export default function Sparkline({ direction }: SparklineProps) {
   if (direction === "down") {
     return (
-      <svg viewBox="0 0 150 50" className="w-[150px] h-[50px]" fill="none">
+      <svg viewBox="0 0 130 50" className="w-[130px] h-[50px]" fill="none">
+        {/* Gray declining line with sharp angles */}
         <path
-          d="M5 8 L18 11 L30 7 L42 16 L55 13 L68 20 L80 18 L92 26 L105 30 L118 33 L132 36 L145 43"
-          stroke="#8B9A6B"
-          strokeWidth="2"
+          d="M5 10 L15 8 L28 15 L38 12 L48 20 L58 18 L68 28 L78 25 L88 32 L98 35 L108 38"
+          stroke="#777777"
+          strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
+        {/* Terracotta final segment continuing down */}
         <path
-          d="M5 8 L18 11 L30 7 L42 16 L55 13 L68 20 L80 18 L92 26 L105 30 L118 33 L132 36 L145 43 L145 50 L5 50 Z"
-          fill="#8B9A6B"
-          fillOpacity="0.08"
+          d="M108 38 L118 42 L125 46"
+          stroke="#C0704A"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <polygon points="145,43 141,37 149,37" fill="#8B9A6B" />
+        {/* Small downward arrow */}
+        <polygon points="125,46 121,41 128,43" fill="#C0704A" />
       </svg>
     );
   }
 
   return (
-    <svg viewBox="0 0 120 40" className="w-[120px] h-[40px]" fill="none">
-      <defs>
-        <linearGradient id="upGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#8B9A6B" />
-          <stop offset="60%" stopColor="#8B9A6B" />
-          <stop offset="100%" stopColor="#C0704A" />
-        </linearGradient>
-        <linearGradient id="upFill" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#8B9A6B" stopOpacity="0.08" />
-          <stop offset="100%" stopColor="#C0704A" stopOpacity="0.12" />
-        </linearGradient>
-      </defs>
+    <svg viewBox="0 0 130 50" className="w-[130px] h-[50px]" fill="none">
+      {/* Gray flat-ish line start */}
       <path
-        d="M5 43 L18 41 L30 38 L42 40 L55 35 L68 30 L80 27 L92 22 L105 24 L118 16 L132 11 L145 5"
-        stroke="url(#upGradient)"
-        strokeWidth="2"
+        d="M5 38 L15 36 L28 37 L38 34 L48 35 L58 32 L68 30"
+        stroke="#777777"
+        strokeWidth="2.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
+      {/* Terracotta hockey-stick upward */}
       <path
-        d="M5 43 L18 41 L30 38 L42 40 L55 35 L68 30 L80 27 L92 22 L105 24 L118 16 L132 11 L145 5 L145 50 L5 50 Z"
-        fill="url(#upFill)"
+        d="M68 30 L78 25 L88 18 L98 12 L108 7 L118 4 L125 3"
+        stroke="#C0704A"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <polygon points="145,5 141,11 149,11" fill="#C0704A" />
     </svg>
   );
 }
