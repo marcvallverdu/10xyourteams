@@ -7,37 +7,37 @@ interface SparklineProps {
 export default function Sparkline({ direction }: SparklineProps) {
   if (direction === "down") {
     return (
-      <svg viewBox="0 0 400 60" className="w-full h-[60px]" fill="none" preserveAspectRatio="none">
+      <svg viewBox="0 0 400 100" className="w-full h-[100px]" fill="none" preserveAspectRatio="none">
         <path
-          d="M0 12 L30 10 L60 18 L90 14 L120 22 L150 19 L180 28 L210 25 L240 33 L270 36 L300 40 L330 44 L360 48"
+          d="M0 8 L30 6 L60 16 L90 12 L120 24 L150 20 L180 34 L210 30 L240 46 L270 52 L300 62 L330 72 L360 82"
           stroke="#777777"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
-          d="M360 48 L380 52 L400 56"
+          d="M360 82 L380 88 L400 96"
           stroke="#C0704A"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
-        <polygon points="400,56 394,50 398,54" fill="#C0704A" />
+        <polygon points="400,96 394,88 398,92" fill="#C0704A" />
       </svg>
     );
   }
 
   return (
-    <svg viewBox="0 0 400 60" className="w-full h-[60px]" fill="none" preserveAspectRatio="none">
+    <svg viewBox="0 0 400 100" className="w-full h-[100px]" fill="none" preserveAspectRatio="none">
       <path
-        d="M0 50 L30 48 L60 49 L90 46 L120 47 L150 44 L180 42 L210 40"
+        d="M0 88 L30 86 L60 88 L90 84 L120 85 L150 80 L180 76 L210 70"
         stroke="#777777"
         strokeWidth="2.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M210 40 L240 34 L270 26 L300 18 L330 12 L360 7 L400 3"
+        d="M210 70 L240 56 L270 40 L300 26 L330 16 L360 8 L400 3"
         stroke="#C0704A"
         strokeWidth="2.5"
         strokeLinecap="round"
