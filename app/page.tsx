@@ -202,8 +202,9 @@ export default function Home() {
             </h2>
             <div className="space-y-5 text-[15px] text-[#2A2A2A] leading-[1.6]">
               <p className="text-navy font-semibold text-[16px]">
-                COOs, VPs of Ops, and Heads of Transformation at companies with
-                200–2,000 people.
+                Senior leaders responsible for how work gets done — COOs, VPs,
+                Heads of Transformation, and anyone accountable for team
+                structure at companies with 200–2,000 people.
               </p>
               <p>
                 You&apos;ve been told to &ldquo;figure out AI.&rdquo;
