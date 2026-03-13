@@ -153,7 +153,7 @@ export default function Home() {
       {/* ─── THE FRAMEWORK ─── */}
       <section className="bg-cream-dark py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
-          <h2 className="font-sans font-bold text-[2.2rem] md:text-[2.8rem] text-navy mb-4 max-w-[600px]">
+          <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.8rem] text-navy mb-4 max-w-[600px]">
             Most AI transformations fail because they&apos;re missing one of
             three things.
           </h2>
