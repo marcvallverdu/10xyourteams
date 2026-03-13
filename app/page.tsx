@@ -101,8 +101,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHAT CHANGES (cream) ─── */}
-      <section className="bg-cream py-20 md:py-24">
+      {/* ─── WHAT CHANGES (slightly darker cream) ─── */}
+      <section className="bg-cream-dark py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-10">
             What changes
