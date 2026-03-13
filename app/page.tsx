@@ -44,9 +44,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[480px] leading-[1.55]">
-              Your teams already have the talent. We find what&apos;s holding
-              them back and redesign how they work — so every person delivers
-              10x what they do today.
+              Same headcount. 10x the output. We redesign how your organisation
+              works with AI — from task level to org chart.
             </p>
             <p className="mt-3 text-[14px] text-[#8A95A8]">
               Built by a COO doing this inside a 1,000-person company right now.
@@ -102,8 +101,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHAT CHANGES (cream — slightly warmer) ─── */}
-      <section className="bg-cream-dark py-20 md:py-24">
+      {/* ─── WHAT CHANGES (cream) ─── */}
+      <section className="bg-cream py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-10">
             What changes
@@ -154,7 +153,7 @@ export default function Home() {
       {/* ─── THE FRAMEWORK (muted blue-gray — not full navy) ─── */}
       <section className="bg-framework py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
-          <h2 className="font-sans font-bold text-[2.2rem] md:text-[2.8rem] text-white mb-4 max-w-[600px]">
+          <h2 className="font-sans font-bold text-[2.2rem] md:text-[2.8rem] text-navy mb-4 max-w-[600px]">
             Most AI transformations fail because they&apos;re missing one of
             three things.
           </h2>
@@ -177,16 +176,16 @@ export default function Home() {
                 key={pillar.title}
                 className="border-t-2 border-terracotta pt-6"
               >
-                <h3 className="font-sans font-bold text-[22px] text-white mb-3">
+                <h3 className="font-sans font-bold text-[22px] text-navy mb-3">
                   {pillar.title}
                 </h3>
-                <p className="text-[15px] text-[#B0B8C8] leading-[1.6]">
+                <p className="text-[15px] text-[#4A4440] leading-[1.6]">
                   {pillar.body}
                 </p>
               </div>
             ))}
           </div>
-          <p className="mt-14 text-[17px] text-white font-semibold">
+          <p className="mt-14 text-[17px] text-navy font-semibold">
             We diagnose which pillar you&apos;re missing. Then we fix it.
           </p>
         </div>
