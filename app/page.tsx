@@ -78,7 +78,7 @@ export default function Home() {
               {
                 num: "03",
                 title: "Unlock the People",
-                body: "We identify your Champions, Superstars, and Key People — and put each in the right seat. The talent is already there. We make sure it's amplified, not buried under the wrong work.",
+                body: "The right people are already in your company. We work out who to build around, who to move, and who to develop — so your restructured teams are led by the people everyone already trusts.",
               },
             ].map((card) => (
               <div
