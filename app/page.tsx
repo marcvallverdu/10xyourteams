@@ -44,8 +44,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[480px] leading-[1.55]">
-              Same headcount. 10x the output. We redesign how your organisation
-              works with AI — from individual tasks to org structure.
+              Same headcount. 10x the output. We redesign your operating model
+              around AI — from how work flows to how teams are structured.
             </p>
             <p className="mt-3 text-[14px] text-[#8A95A8]">
               Built by a COO doing this inside a 1,000-person company right now.
@@ -97,6 +97,45 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── THE OPERATING MODEL SHIFT ─── */}
+      <section className="bg-cream-mid py-20 md:py-28">
+        <div className="max-w-[1200px] mx-auto px-10 md:px-20">
+          <div className="max-w-[680px]">
+            <p className="text-[13px] uppercase tracking-[2px] text-terracotta font-semibold mb-5">
+              The real problem
+            </p>
+            <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.4rem] text-navy mb-6 leading-[1.15]">
+              Productive individuals don&apos;t make productive firms.
+            </h2>
+            <div className="space-y-5 text-[15px] text-[#3A3530] leading-[1.65]">
+              <p>
+                In the 1890s, textile mills swapped steam engines for electric
+                motors. For thirty years, nothing improved. Same factory layout,
+                same workflows, faster motor. It wasn&apos;t until the 1920s —
+                when they redesigned the entire factory floor — that
+                electrification actually delivered returns.
+              </p>
+              <p>
+                That&apos;s where most companies are with AI right now. They&apos;ve
+                swapped the motor. They haven&apos;t redesigned the factory.
+              </p>
+              <p>
+                Every employee has ChatGPT. Some are 10x faster individually.
+                But the org chart hasn&apos;t changed. The processes haven&apos;t
+                changed. The operating model hasn&apos;t changed. Individual
+                productivity without process engineering is just faster rowing
+                in different directions.
+              </p>
+              <p className="text-navy font-semibold">
+                We don&apos;t sell AI tools. We redesign the operating model —
+                the processes, the roles, the decision flows — so AI multiplies
+                the whole organisation, not just individuals.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -241,7 +280,7 @@ export default function Home() {
               {
                 step: "3",
                 title: "The transformation",
-                body: "We redesign roles and workflows, identify who to build around, and implement alongside your leadership. We stay until it's working.",
+                body: "We redesign roles, workflows, and decision flows — the actual operating model. We identify who to build around and implement alongside your leadership. Process engineering, not tool deployment.",
               },
             ].map((item) => (
               <div key={item.step}>
