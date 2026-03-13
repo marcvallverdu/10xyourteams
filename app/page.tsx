@@ -220,6 +220,46 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─── HOW IT WORKS (cream-dark) ─── */}
+      <section className="bg-cream-dark py-20 md:py-24">
+        <div className="max-w-[1200px] mx-auto px-10 md:px-20">
+          <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-12">
+            How it works
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {[
+              {
+                step: "1",
+                title: "A conversation",
+                body: "We start with your situation — what's been tried, what's stuck, and where the pressure is coming from. No pitch deck. Just an honest assessment of where you are.",
+              },
+              {
+                step: "2",
+                title: "The diagnosis",
+                body: "We embed with your teams and map the work. You get a clear picture of your three-pillar gaps and a concrete plan for what to change first.",
+              },
+              {
+                step: "3",
+                title: "The transformation",
+                body: "We redesign roles and workflows, identify who to build around, and implement alongside your leadership. We stay until it's working.",
+              },
+            ].map((item) => (
+              <div key={item.step}>
+                <span className="font-sans font-bold text-[2.5rem] text-terracotta/30 leading-none block">
+                  {item.step}
+                </span>
+                <h3 className="font-sans font-bold text-[20px] text-navy mt-2 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-[14px] text-[#3A3530] leading-[1.6]">
+                  {item.body}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── BOTTOM CTA (navy) ─── */}
       <section id="contact" className="bg-navy py-16 md:py-20">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
