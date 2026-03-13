@@ -101,45 +101,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── THE OPERATING MODEL SHIFT ─── */}
-      <section className="bg-cream-mid py-20 md:py-28">
-        <div className="max-w-[1200px] mx-auto px-10 md:px-20">
-          <div className="max-w-[680px]">
-            <p className="text-[13px] uppercase tracking-[2px] text-terracotta font-semibold mb-5">
-              The real problem
-            </p>
-            <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.4rem] text-navy mb-6 leading-[1.15]">
-              Productive individuals don&apos;t make productive firms.
-            </h2>
-            <div className="space-y-5 text-[15px] text-[#3A3530] leading-[1.65]">
-              <p>
-                In the 1890s, textile mills swapped steam engines for electric
-                motors. For thirty years, nothing improved. Same factory layout,
-                same workflows, faster motor. It wasn&apos;t until the 1920s —
-                when they redesigned the entire factory floor — that
-                electrification actually delivered returns.
-              </p>
-              <p>
-                That&apos;s where most companies are with AI right now. They&apos;ve
-                swapped the motor. They haven&apos;t redesigned the factory.
-              </p>
-              <p>
-                Every employee has ChatGPT. Some are 10x faster individually.
-                But the org chart hasn&apos;t changed. The processes haven&apos;t
-                changed. The operating model hasn&apos;t changed. Individual
-                productivity without process engineering is just faster rowing
-                in different directions.
-              </p>
-              <p className="text-navy font-semibold">
-                We don&apos;t sell AI tools. We redesign the operating model —
-                the processes, the roles, the decision flows — so AI multiplies
-                the whole organisation, not just individuals.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ─── WHAT CHANGES ─── */}
       <section className="bg-cream-mid py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
@@ -192,9 +153,9 @@ export default function Home() {
       {/* ─── THE FRAMEWORK ─── */}
       <section className="bg-cream-dark py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
-          <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.8rem] text-navy mb-4 max-w-[600px]">
-            Most AI transformations fail because they&apos;re missing one of
-            three things.
+          <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.8rem] text-navy mb-4 max-w-[680px]">
+            Productive individuals don&apos;t make productive firms. Redesigning
+            the operating model takes three things.
           </h2>
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
@@ -225,7 +186,9 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-14 text-[17px] text-navy font-semibold">
-            We diagnose which pillar you&apos;re missing. Then we fix it.
+            This is process engineering, not tool deployment. We diagnose which
+            pillar you&apos;re missing — then redesign the operating model to
+            fix it.
           </p>
         </div>
       </section>
@@ -249,10 +212,18 @@ export default function Home() {
                 your people are doing the same work, just with a chatbot open
                 in another tab.
               </p>
+              <p>
+                In the 1890s, textile mills swapped steam engines for electric
+                motors and saw zero productivity gains for thirty years. The
+                technology was superior. The organisation wasn&apos;t. It
+                wasn&apos;t until they redesigned the factory floor that
+                electrification delivered. Most companies are at the
+                &ldquo;faster motor&rdquo; stage with AI right now.
+              </p>
               <p className="text-navy font-semibold">
                 You don&apos;t need another strategy deck. You need someone
-                who&apos;s already done it inside their own company — and can
-                show you exactly how.
+                who&apos;ll redesign the operating model — and who&apos;s
+                already doing it inside their own company.
               </p>
             </div>
           </div>
