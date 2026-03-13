@@ -101,8 +101,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHAT CHANGES (slightly darker cream) ─── */}
-      <section className="bg-cream-dark py-20 md:py-24">
+      {/* ─── WHAT CHANGES ─── */}
+      <section className="bg-cream-mid py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-10">
             What changes
@@ -150,8 +150,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── THE FRAMEWORK (muted blue-gray — not full navy) ─── */}
-      <section className="bg-framework py-20 md:py-28">
+      {/* ─── THE FRAMEWORK ─── */}
+      <section className="bg-cream-dark py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.2rem] md:text-[2.8rem] text-navy mb-4 max-w-[600px]">
             Most AI transformations fail because they&apos;re missing one of
@@ -191,8 +191,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── WHO THIS IS FOR (cream) ─── */}
-      <section className="bg-cream py-20 md:py-24">
+      {/* ─── WHO THIS IS FOR ─── */}
+      <section className="bg-cream-mid py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <div className="max-w-[600px]">
             <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-8">
@@ -220,8 +220,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── HOW IT WORKS (cream-dark) ─── */}
-      <section className="bg-cream-dark py-20 md:py-24">
+      {/* ─── HOW IT WORKS ─── */}
+      <section className="bg-cream py-20 md:py-24">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
           <h2 className="font-sans font-bold text-[2.5rem] md:text-[2.8rem] text-navy mb-12">
             How it works
