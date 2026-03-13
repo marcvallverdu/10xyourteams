@@ -45,7 +45,7 @@ export default function Home() {
             </h1>
             <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[480px] leading-[1.55]">
               Same headcount. 10x the output. We redesign how your organisation
-              works with AI — from task level to org chart.
+              works with AI — from individual tasks to org structure.
             </p>
             <p className="mt-3 text-[14px] text-[#8A95A8]">
               Built by a COO doing this inside a 1,000-person company right now.
@@ -68,12 +68,12 @@ export default function Home() {
               {
                 num: "01",
                 title: "Map the Work",
-                body: "We sit inside your teams and map every workflow to the task level. What requires human judgment? What's mechanical? What shouldn't exist at all? You can't amplify what you haven't measured.",
+                body: "We sit inside your teams and map every workflow to the task level. What requires human judgment? What's mechanical? What shouldn't exist at all? You can't redesign what you haven't mapped.",
               },
               {
                 num: "02",
                 title: "Redesign the Roles",
-                body: "We restructure roles and workflows around AI — so your people spend their time on judgment, creativity, and decisions. Not coordination, not data entry, not process.",
+                body: "We restructure roles and workflows around AI — so your people spend their time on judgment, creativity, and decisions. Not coordination, not copy-paste, not reporting.",
               },
               {
                 num: "03",
@@ -212,8 +212,8 @@ export default function Home() {
               </p>
               <p className="text-navy font-semibold">
                 You don&apos;t need another strategy deck. You need someone
-                who&apos;s already amplified their own teams — and can show you
-                exactly how.
+                who&apos;s already done it inside their own company — and can
+                show you exactly how.
               </p>
             </div>
           </div>
