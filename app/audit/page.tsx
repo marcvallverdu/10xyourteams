@@ -15,31 +15,36 @@ export default function AuditPage() {
         </nav>
 
         <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 flex-1 flex items-center w-full">
-          <div className="py-10 w-full max-w-[760px]">
-            <h1 className="font-sans font-bold text-[2.8rem] md:text-[4rem] text-white leading-[1.05] max-w-[760px]">
-              AI Leverage Audit
-            </h1>
-            <p className="mt-5 text-[18px] text-[#E5DED3] leading-[1.65] max-w-[720px]">
-              A two-week diagnostic for leadership teams that have plenty of AI activity, but not enough operational change to show for it.
-            </p>
-            <p className="mt-5 text-[16px] text-[#C0BAB0] max-w-[700px] leading-[1.7]">
-              We look at where AI can create real leverage across the business, what is blocking that today, and what needs to change first in workflows, ownership, and operating rhythm.
-            </p>
-            <div className="mt-6 text-[14px] text-[#C0BAB0]">
-              <a href="/" className="underline underline-offset-4 hover:text-white transition-colors">
-                See the main overview
-              </a>
+          <div className="py-8 md:py-10 w-full">
+            <div className="max-w-[560px] space-y-3">
+              <h1 className="font-sans font-bold text-[2.8rem] md:text-[4rem] text-white leading-[1.05]">
+                AI Leverage Audit
+              </h1>
+              <p className="text-[16px] md:text-[17px] text-[#E5DED3] leading-[1.45]">
+                A two-week diagnostic for leadership teams that have plenty of AI activity, but not enough operational change to show for it.
+              </p>
+              <p className="text-[15px] md:text-[16px] text-[#C0BAB0] leading-[1.6]">
+                We look at where AI can create real leverage across the business, what is blocking that today, and what needs to change first in workflows, ownership, and operating rhythm.
+              </p>
+              <p className="text-[13px] md:text-[14px] text-[#8A95A8] leading-[1.55]">
+                Built by a COO doing this inside a 1,000-person company right now.
+              </p>
+              <div className="pt-1 text-[13px] md:text-[14px] text-[#C0BAB0]">
+                <a href="/" className="underline underline-offset-4 hover:text-white transition-colors">
+                  See the main overview
+                </a>
+              </div>
             </div>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            <div className="mt-6 md:mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a
                 href="https://cal.com/marcvallverdu/20min"
-                className="inline-block bg-terracotta text-white text-[15px] font-semibold px-7 py-3.5 rounded-[8px] hover:opacity-90 transition-opacity"
+                className="inline-block w-full sm:w-auto text-center bg-terracotta text-white text-[14px] font-semibold px-5 sm:px-6 py-3 rounded-[7px] hover:opacity-90 transition-opacity"
               >
                 Book a 20-minute call →
               </a>
               <a
                 href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
-                className="inline-block border-2 border-white text-white text-[15px] font-medium px-7 py-3.5 rounded-[8px] hover:bg-white/10 transition-colors"
+                className="inline-block w-full sm:w-auto text-center border-2 border-white text-white text-[14px] font-medium px-5 sm:px-6 py-3 rounded-[7px] hover:bg-white/10 transition-colors"
               >
                 Prefer email? Reach out directly
               </a>
