@@ -1,7 +1,7 @@
 export default function AuditPage() {
   return (
     <div className="min-h-screen">
-      <section className="bg-navy min-h-[72vh] flex flex-col">
+      <section className="bg-navy min-h-[100vh] flex flex-col">
         <nav className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 py-5 md:py-6 flex items-center justify-between gap-3 w-full">
           <a href="/" className="font-sans font-semibold text-[17px] sm:text-[19px] text-white shrink-0">
             10xyourteams.com
