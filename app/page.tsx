@@ -8,7 +8,7 @@ export default function Home() {
             10xyourteams.com
           </span>
           <a
-            href="/audit"
+            href="https://cal.com/marcvallverdu/20min"
             className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
           >
             Book a 20-minute call
