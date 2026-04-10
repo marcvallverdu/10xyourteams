@@ -10,7 +10,7 @@ export default function AuditPage() {
             href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
             className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
           >
-            Book an Intro Call
+            Book a 20-minute call
           </a>
         </nav>
 
@@ -33,13 +33,13 @@ export default function AuditPage() {
                 href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
                 className="inline-block bg-terracotta text-white text-[15px] font-semibold px-7 py-3.5 rounded-[8px] hover:opacity-90 transition-opacity"
               >
-                Book a 20-minute intro call →
+                Book a 20-minute call →
               </a>
               <a
-                href="/scorecard"
+                href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
                 className="inline-block border-2 border-white text-white text-[15px] font-medium px-7 py-3.5 rounded-[8px] hover:bg-white/10 transition-colors"
               >
-                Take the scorecard first
+                Prefer email? Reach out directly
               </a>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function AuditPage() {
               This is not another AI strategy deck, and it is not a disguised custom build project.
             </h2>
             <p className="text-[16px] text-[#2A2A2A] leading-[1.75] max-w-[760px]">
-              The point of the audit is to create clarity. It helps leadership see where the leverage really is, what is blocking it, and what should change first. It is designed to lead into better decisions, not months of vague recommendations or outsourced implementation sludge.
+              The point of the audit is to create clarity fast. It helps leadership see where the leverage really is, what is blocking it, and what should change first. It is designed to lead into better decisions, not months of vague recommendations or outsourced implementation sludge.
             </p>
           </div>
         </div>
@@ -185,14 +185,14 @@ export default function AuditPage() {
                 If AI is everywhere and the gains still feel fuzzy, start here.
               </h2>
               <p className="text-[16px] text-[#A0AABB] leading-[1.6]">
-                The audit is the cleanest first step when the real problem is not awareness, but execution.
+                If the problem is execution, not awareness, the cleanest next step is a 20-minute call. We’ll quickly work out whether an AI Leverage Audit is the right move.
               </p>
             </div>
             <a
               href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
               className="shrink-0 bg-terracotta text-white font-semibold text-[15px] px-8 py-3.5 rounded-[7px] hover:opacity-90 transition-opacity"
             >
-              Book a 20-minute intro call →
+              Book a 20-minute call →
             </a>
           </div>
         </div>

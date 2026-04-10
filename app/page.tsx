@@ -8,10 +8,10 @@ export default function Home() {
             10xyourteams.com
           </span>
           <a
-            href="/scorecard"
+            href="/audit"
             className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
           >
-            Take the Scorecard
+            Book a 20-minute call
           </a>
         </nav>
 
@@ -59,16 +59,16 @@ export default function Home() {
             </p>
             <div className="mt-7 flex flex-col sm:flex-row gap-4">
               <a
-                href="/scorecard"
+                href="/audit"
                 className="inline-block bg-terracotta text-white text-[14px] font-semibold px-6 py-3 rounded-[7px] hover:opacity-90 transition-opacity"
               >
-                Take the Scorecard →
+                Book a 20-minute call →
               </a>
               <a
-                href="/audit"
+                href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
                 className="inline-block border-2 border-white text-white text-[14px] font-medium px-6 py-3 rounded-[7px] hover:bg-white/10 transition-colors"
               >
-                Explore the Audit
+                Email Marc directly
               </a>
             </div>
           </div>
@@ -301,16 +301,16 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0">
               <a
-                href="/scorecard"
+                href="/audit"
                 className="bg-terracotta text-white font-semibold text-[15px] px-8 py-3.5 rounded-[7px] hover:opacity-90 transition-opacity"
               >
-                Take the Scorecard →
+                Book a 20-minute call →
               </a>
               <a
-                href="/audit"
+                href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
                 className="border-2 border-white text-white font-semibold text-[15px] px-8 py-3.5 rounded-[7px] hover:bg-white/10 transition-colors"
               >
-                Explore the Audit
+                Email Marc directly
               </a>
             </div>
           </div>
