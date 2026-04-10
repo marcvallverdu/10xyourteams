@@ -28,6 +28,11 @@ export default function AuditPage() {
             <p className="mt-5 text-[16px] text-[#C0BAB0] max-w-[700px] leading-[1.7]">
               We identify where AI can create real operational advantage, what is blocking that today, and what needs to change first in workflows, ownership, and operating rhythm.
             </p>
+            <div className="mt-6 text-[14px] text-[#C0BAB0]">
+              <a href="/" className="underline underline-offset-4 hover:text-white transition-colors">
+                See the main overview
+              </a>
+            </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href="https://cal.com/marcvallverdu/20min"
@@ -186,6 +191,9 @@ export default function AuditPage() {
               </h2>
               <p className="text-[16px] text-[#A0AABB] leading-[1.6]">
                 If the problem is execution, not awareness, the cleanest next step is a 20-minute call. We’ll quickly work out whether an AI Leverage Audit is the right move.
+              </p>
+              <p className="mt-4 text-[14px] text-[#C0BAB0] leading-[1.6] max-w-[520px]">
+                Not sure if you need an audit, a sprint, or just a sanity check? The call is the right first step.
               </p>
             </div>
             <a

@@ -3,22 +3,22 @@ export default function Home() {
     <div className="min-h-screen">
       {/* ─── HERO (navy) ─── */}
       <section className="bg-navy min-h-[100vh] flex flex-col">
-        <nav className="max-w-[1200px] mx-auto px-10 md:px-20 py-6 flex items-center justify-between w-full">
-          <span className="font-sans font-semibold text-[17px] text-white">
+        <nav className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 py-5 md:py-6 flex items-center justify-between gap-3 w-full">
+          <span className="font-sans font-semibold text-[15px] sm:text-[17px] text-white shrink-0">
             10xyourteams.com
           </span>
           <a
             href="https://cal.com/marcvallverdu/20min"
-            className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
+            className="bg-terracotta text-white text-[12px] sm:text-[14px] font-semibold px-3.5 sm:px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity shrink-0 whitespace-nowrap"
           >
-            Book a 20-minute call
+            Book a call
           </a>
         </nav>
 
-        <div className="max-w-[1200px] mx-auto px-10 md:px-20 flex-1 flex items-center w-full">
-          <div className="py-8 w-full">
+        <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 flex-1 flex items-center w-full">
+          <div className="py-8 md:py-10 w-full">
             <h1
-              className="font-display text-[5rem] md:text-[8.5rem] lg:text-[11rem] leading-[0.88] text-white uppercase"
+              className="font-display text-[4.25rem] sm:text-[5rem] md:text-[8.5rem] lg:text-[11rem] leading-[0.88] text-white uppercase"
               style={{ letterSpacing: "-3px" }}
             >
               10X
@@ -43,7 +43,7 @@ export default function Home() {
                 </svg>
               </span>
             </h1>
-            <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[560px] leading-[1.55]">
+            <p className="mt-6 md:mt-7 text-[16px] md:text-[17px] text-[#C0BAB0] max-w-[560px] leading-[1.55]">
               <span className="block text-white font-semibold mb-2">
                 Same headcount. 10x the output.
               </span>
@@ -54,19 +54,19 @@ export default function Home() {
               done, so AI becomes a real advantage across the team, not just
               another tool people use occasionally.
             </p>
-            <p className="mt-3 text-[14px] text-[#8A95A8]">
+            <p className="mt-3 text-[13px] md:text-[14px] text-[#8A95A8] max-w-[520px]">
               Built by a COO doing this inside a 1,000-person company right now.
             </p>
-            <div className="mt-7 flex flex-col sm:flex-row gap-4">
+            <div className="mt-6 md:mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a
                 href="https://cal.com/marcvallverdu/20min"
-                className="inline-block bg-terracotta text-white text-[14px] font-semibold px-6 py-3 rounded-[7px] hover:opacity-90 transition-opacity"
+                className="inline-block w-full sm:w-auto text-center bg-terracotta text-white text-[14px] font-semibold px-5 sm:px-6 py-3 rounded-[7px] hover:opacity-90 transition-opacity"
               >
                 Book a 20-minute call →
               </a>
               <a
                 href="/audit"
-                className="inline-block border-2 border-white text-white text-[14px] font-medium px-6 py-3 rounded-[7px] hover:bg-white/10 transition-colors"
+                className="inline-block w-full sm:w-auto text-center border-2 border-white text-white text-[14px] font-medium px-5 sm:px-6 py-3 rounded-[7px] hover:bg-white/10 transition-colors"
               >
                 See how the audit works
               </a>
