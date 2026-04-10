@@ -273,9 +273,15 @@ export default function ScorecardPage() {
 
     return (
       <div className="min-h-screen bg-page-bg">
-        <nav className="max-w-[720px] mx-auto px-6 py-5 flex items-center justify-between">
+        <nav className="max-w-[720px] mx-auto px-6 py-5 flex items-center justify-between gap-4">
           <a href="/" className="font-serif font-bold text-lg text-text-primary">
             10xyourteams
+          </a>
+          <a
+            href="/audit"
+            className="text-sm font-medium text-text-body hover:text-text-primary transition-colors"
+          >
+            Explore the Audit
           </a>
         </nav>
 
@@ -284,7 +290,7 @@ export default function ScorecardPage() {
             Your Results
           </h1>
           <p className="text-text-body mb-10">
-            Here&apos;s where your organisation stands across the three pillars.
+            Here&apos;s where your organisation stands across the three pillars that determine whether AI becomes real operating leverage or just more activity.
           </p>
 
           {/* Score bars */}
@@ -326,13 +332,24 @@ export default function ScorecardPage() {
             <h2 className="font-serif font-bold text-2xl text-text-primary mb-3">
               {pattern.title}
             </h2>
-            <p className="text-text-body leading-relaxed mb-6">{pattern.desc}</p>
-            <a
-              href="https://wyww.co"
-              className="inline-block bg-terracotta text-white font-medium text-[15px] px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
-            >
-              Read WYWW — the newsletter for ops leaders →
-            </a>
+            <p className="text-text-body leading-relaxed mb-4">{pattern.desc}</p>
+            <p className="text-sm text-text-body mb-6">
+              If you want a practical read on where AI can create real leverage, what is blocking it, and what should change first, the next step is the AI Leverage Audit.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="/audit"
+                className="inline-block bg-terracotta text-white font-medium text-[15px] px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
+              >
+                Explore the AI Leverage Audit →
+              </a>
+              <a
+                href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
+                className="inline-block border border-divider text-text-primary font-medium text-[15px] px-6 py-3 rounded-full hover:border-sage transition-colors"
+              >
+                Book an intro call
+              </a>
+            </div>
           </div>
 
           {/* Pillar breakdowns */}
@@ -384,22 +401,33 @@ export default function ScorecardPage() {
   return (
     <div className="min-h-screen bg-page-bg">
       {/* Nav */}
-      <nav className="max-w-[720px] mx-auto px-6 py-5 flex items-center justify-between">
+      <nav className="max-w-[720px] mx-auto px-6 py-5 flex items-center justify-between gap-4">
         <a href="/" className="font-serif font-bold text-lg text-text-primary">
           10xyourteams
         </a>
-        <span className="text-sm text-text-body">
-          {answeredCount}/{totalQuestions} answered
-        </span>
+        <div className="flex items-center gap-4">
+          <a
+            href="/audit"
+            className="hidden sm:inline text-sm font-medium text-text-body hover:text-text-primary transition-colors"
+          >
+            Explore the Audit
+          </a>
+          <span className="text-sm text-text-body">
+            {answeredCount}/{totalQuestions} answered
+          </span>
+        </div>
       </nav>
 
       <main className="max-w-[720px] mx-auto px-6 pt-8 pb-20">
         {/* Header */}
         <h1 className="font-serif font-black text-3xl md:text-4xl text-text-primary mb-2">
-          The Three-Pillar Scorecard
+          AI Advantage Scorecard
         </h1>
-        <p className="text-text-body mb-8">
-          15 questions. 3 minutes. Find out exactly where your AI transformation is stuck.
+        <p className="text-text-body mb-3">
+          15 questions. 3 minutes. Find out where AI is getting stuck between experimentation and operational advantage.
+        </p>
+        <p className="text-sm text-text-body mb-8">
+          This scorecard looks at the three conditions that determine whether AI changes how work actually runs: directive, measurement, and enablement.
         </p>
 
         {/* Pillar tabs */}
