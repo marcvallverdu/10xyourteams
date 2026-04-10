@@ -43,9 +43,16 @@ export default function Home() {
                 </svg>
               </span>
             </h1>
-            <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[480px] leading-[1.55]">
-              Same headcount. 10x the output. We redesign your operating model
-              around AI — from how work flows to how teams are structured.
+            <p className="mt-7 text-[17px] text-[#C0BAB0] max-w-[560px] leading-[1.55]">
+              <span className="block text-white font-semibold mb-2">
+                Same headcount. 10x the output.
+              </span>
+              <span className="block text-[#E5DED3] mb-2">
+                From AI experiments to operational advantage.
+              </span>
+              10xyourteams helps ambitious ops leaders redesign how work gets
+              done, so AI becomes a real advantage across the team, not just
+              another tool people use occasionally.
             </p>
             <p className="mt-3 text-[14px] text-[#8A95A8]">
               Built by a COO doing this inside a 1,000-person company right now.
@@ -68,17 +75,17 @@ export default function Home() {
               {
                 num: "01",
                 title: "Map the Work",
-                body: "We sit inside your teams and map every workflow to the task level. What requires human judgment? What's mechanical? What shouldn't exist at all? You can't redesign what you haven't mapped.",
+                body: "We break work down to the task level and separate what needs judgment from what can be automated, accelerated, or removed entirely. You can’t redesign what you haven’t made visible.",
               },
               {
                 num: "02",
-                title: "Redesign the Roles",
-                body: "We restructure roles and workflows around AI — so your people spend their time on judgment, creativity, and decisions. Not coordination, not copy-paste, not reporting.",
+                title: "Redesign the Operating Model",
+                body: "We reshape workflows, decision flows, and team structure around AI, so people spend more time on judgment, creativity, and leverage, and less time on coordination and repetition.",
               },
               {
                 num: "03",
-                title: "Unlock the People",
-                body: "The right people are already in your company. We work out who to build around, who to move, and who to develop — so your restructured teams are led by the people everyone already trusts.",
+                title: "Enable the Shift",
+                body: "We help leadership turn the redesign into a real operating model, with the right roles, expectations, workflows, and internal momentum to make it stick.",
               },
             ].map((card) => (
               <div
@@ -114,9 +121,9 @@ export default function Home() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "3 people, 3 weeks to ship a feature",
-                  "Managers coordinate handoffs between humans",
-                  "AI is a tool some people use sometimes",
+                  "AI is a side tool some people use when they remember",
+                  "Managers spend their time coordinating handoffs",
+                  "Work moves slowly because the operating model hasn’t changed",
                 ].map((item, i) => (
                   <p
                     key={i}
@@ -133,9 +140,9 @@ export default function Home() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "1 person, 3 days — same feature, same quality",
-                  "Managers make decisions — coordination is automated",
-                  "AI is the operating model, not an add-on",
+                  "AI is built into how work gets done",
+                  "Managers spend more time making decisions, less time chasing execution",
+                  "Teams ship faster with fewer handoffs and less drag",
                 ].map((item, i) => (
                   <p
                     key={i}
@@ -153,15 +160,28 @@ export default function Home() {
       {/* ─── THE FRAMEWORK ─── */}
       <section className="bg-cream-dark py-20 md:py-28">
         <div className="max-w-[1200px] mx-auto px-10 md:px-20">
-          <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.8rem] text-navy mb-4 max-w-[680px]">
-            Productive individuals don&apos;t make productive firms. Redesigning
-            the operating model takes three things.
+          <h2 className="font-sans font-bold text-[1.75rem] md:text-[2.8rem] text-navy mb-4 max-w-[760px]">
+            AI doesn&apos;t create advantage on its own. Operating models do.
           </h2>
+          <p className="text-[16px] md:text-[18px] text-[#4A4440] leading-[1.7] max-w-[760px]">
+            Most companies are still treating AI like a better piece of
+            software. They roll out tools, run pilots, and hope productivity
+            follows. It usually doesn&apos;t. The gains come when workflows,
+            decision-making, team structure, and expectations change with the
+            technology.
+          </p>
+          <p className="mt-4 text-[16px] md:text-[18px] text-[#4A4440] leading-[1.7] max-w-[760px]">
+            That&apos;s the real shift. Not AI as a tool, AI as part of the
+            operating model.
+          </p>
+          <h3 className="font-sans font-bold text-[1.5rem] md:text-[2rem] text-navy mt-14 mb-4 max-w-[680px]">
+            Redesigning the operating model takes three things.
+          </h3>
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
                 title: "Directive",
-                body: "Has leadership committed to a specific structural change? Not \"we're leaning into AI\" — a mandate with a deadline, a number, and an owner.",
+                body: "Leadership needs a clear mandate. Not vague ambition, an actual change with an owner, a number, and a deadline.",
               },
               {
                 title: "Measurement",
@@ -169,7 +189,7 @@ export default function Home() {
               },
               {
                 title: "Enablement",
-                body: "Do your teams have the tools, the data access, and the permission to redesign how they work? Most companies hand out AI licences and call it a strategy.",
+                body: "Teams need the tools, access, permission, and support to work in a new way. Licences alone do not change how companies operate.",
               },
             ].map((pillar) => (
               <div
@@ -186,9 +206,7 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-14 text-[17px] text-navy font-semibold">
-            This is process engineering, not tool deployment. We diagnose which
-            pillar you&apos;re missing — then redesign the operating model to
-            fix it.
+            This is process redesign, not tool rollout.
           </p>
         </div>
       </section>
@@ -202,29 +220,19 @@ export default function Home() {
             </h2>
             <div className="space-y-5 text-[15px] text-[#2A2A2A] leading-[1.6]">
               <p className="text-navy font-semibold text-[16px]">
-                Senior leaders responsible for how work gets done — COOs, VPs,
-                Heads of Transformation, and anyone accountable for team
-                structure at companies with 200–2,000 people.
+                10xyourteams is for senior operators responsible for how work
+                gets done: COOs, VPs of Ops, Heads of Transformation, and
+                product or operating leaders under pressure to make AI real.
               </p>
               <p>
-                You&apos;ve been told to &ldquo;figure out AI.&rdquo;
-                You&apos;ve run the pilots. You&apos;ve bought the tools. But
-                the org chart looks the same as it did two years ago — and
-                your people are doing the same work, just with a chatbot open
-                in another tab.
-              </p>
-              <p>
-                In the 1890s, textile mills swapped steam engines for electric
-                motors and saw zero productivity gains for thirty years. The
-                technology was superior. The organisation wasn&apos;t. It
-                wasn&apos;t until they redesigned the factory floor that
-                electrification delivered. Most companies are at the
-                &ldquo;faster motor&rdquo; stage with AI right now.
+                Typically at companies with 200 to 2,000 people, where AI tools
+                are already in the business, adoption is uneven, productivity
+                gains are unclear, and leadership knows the organisation needs
+                to change, not just the tooling.
               </p>
               <p className="text-navy font-semibold">
                 You don&apos;t need another strategy deck. You need someone
-                who&apos;ll redesign the operating model — and who&apos;s
-                already doing it inside their own company.
+                who can turn AI into an operating advantage.
               </p>
             </div>
           </div>
@@ -241,18 +249,18 @@ export default function Home() {
             {[
               {
                 step: "1",
-                title: "A conversation",
-                body: "We start with your situation — what's been tried, what's stuck, and where the pressure is coming from. No pitch deck. Just an honest assessment of where you are.",
+                title: "Understand the pressure",
+                body: "We start with what’s been tried, what’s stuck, and where the business actually needs leverage.",
               },
               {
                 step: "2",
-                title: "The diagnosis",
-                body: "We embed with your teams and map the work. You get a clear picture of your three-pillar gaps and a concrete plan for what to change first.",
+                title: "Diagnose the gap",
+                body: "We map the work, identify where AI can change the economics of execution, and pinpoint what has to change in the operating model.",
               },
               {
                 step: "3",
-                title: "The transformation",
-                body: "We redesign roles, workflows, and decision flows — the actual operating model. We identify who to build around and implement alongside your leadership. Process engineering, not tool deployment.",
+                title: "Redesign for advantage",
+                body: "We redesign workflows, decision flows, and team structure so AI improves how the company actually runs, not just how individuals work.",
               },
             ].map((item) => (
               <div key={item.step}>
