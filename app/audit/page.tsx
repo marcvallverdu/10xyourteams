@@ -16,17 +16,14 @@ export default function AuditPage() {
 
         <div className="max-w-[1200px] mx-auto px-10 md:px-20 flex-1 flex items-center w-full">
           <div className="py-10 w-full max-w-[760px]">
-            <div className="inline-flex items-center gap-2 rounded-full border border-terracotta/60 px-4 py-1.5 text-[13px] text-terracotta font-semibold bg-white/5">
-              Paid diagnostic • 2 weeks • Productised entry offer
-            </div>
-            <h1 className="mt-6 font-sans font-bold text-[2.8rem] md:text-[4rem] text-white leading-[1.05] max-w-[760px]">
+            <h1 className="font-sans font-bold text-[2.8rem] md:text-[4rem] text-white leading-[1.05] max-w-[760px]">
               AI Leverage Audit
             </h1>
             <p className="mt-5 text-[18px] text-[#E5DED3] leading-[1.65] max-w-[720px]">
-              A two-week diagnostic for companies with plenty of AI activity, but not enough real operating change.
+              A two-week diagnostic for leadership teams that have plenty of AI activity, but not enough operational change to show for it.
             </p>
             <p className="mt-5 text-[16px] text-[#C0BAB0] max-w-[700px] leading-[1.7]">
-              We identify where AI can create real operational advantage, what is blocking that today, and what needs to change first in workflows, ownership, and operating rhythm.
+              We look at where AI can create real leverage across the business, what is blocking that today, and what needs to change first in workflows, ownership, and operating rhythm.
             </p>
             <div className="mt-6 text-[14px] text-[#C0BAB0]">
               <a href="/" className="underline underline-offset-4 hover:text-white transition-colors">
@@ -58,7 +55,7 @@ export default function AuditPage() {
               Who it&apos;s for
             </h2>
             <p className="text-[16px] text-[#2A2A2A] leading-[1.7]">
-              COOs, VPs of Ops, Heads of Ops, Chiefs of Staff, and transformation leaders in companies where AI tools are already in circulation, experimentation is widespread, but the operating model has not caught up.
+              COOs, VPs of Ops, Heads of Ops, Chiefs of Staff, and transformation leaders in companies where AI tools are already in circulation, but the way work gets done has not meaningfully changed.
             </p>
           </div>
 
@@ -90,15 +87,15 @@ export default function AuditPage() {
             {[
               {
                 title: "Diagnose the current state",
-                body: "Make sense of what is already happening with AI across the organisation, where the signal is real, and where activity is mostly noise.",
+                body: "Make sense of what is already happening with AI across the organisation, where the gains are real, and where activity is mostly noise."
               },
               {
                 title: "Find the leverage",
-                body: "Identify the workflows, teams, and decisions where AI can create meaningful gains in speed, quality, or capacity.",
+                body: "Identify the workflows, teams, and decisions where AI can create meaningful gains in speed, quality, capacity, or managerial leverage."
               },
               {
                 title: "Set the next 90 days",
-                body: "Turn the diagnosis into a practical rollout plan with priorities, ownership, and the operating changes that should happen first.",
+                body: "Turn the diagnosis into a practical 90-day plan with priorities, ownership, and the operating changes that should happen first."
               },
             ].map((item, i) => (
               <div
@@ -132,9 +129,9 @@ export default function AuditPage() {
               "Current-state diagnosis",
               "Top 3-5 high-leverage AI opportunities",
               "Workflow and operating model blockers",
-              "Policy, rule, and ownership recommendations",
-              "30/60/90-day rollout plan",
-              "Executive readout",
+              "Team, ownership, and policy recommendations",
+              "30/60/90-day action plan",
+              "Executive readout with clear next steps",
             ].map((item) => (
               <div key={item} className="flex items-start gap-3 border-b border-navy/10 pb-4">
                 <span className="text-terracotta font-bold text-[20px] leading-none">✓</span>
@@ -176,7 +173,7 @@ export default function AuditPage() {
               This is not another AI strategy deck, and it is not a disguised custom build project.
             </h2>
             <p className="text-[16px] text-[#2A2A2A] leading-[1.75] max-w-[760px]">
-              The point of the audit is to create clarity fast. It helps leadership see where the leverage really is, what is blocking it, and what should change first. It is designed to lead into better decisions, not months of vague recommendations or outsourced implementation sludge.
+              The point of the audit is to create clarity fast. It helps leadership see where the leverage really is, what is blocking it, and what should change first. It is designed to lead to sharper decisions, better prioritisation, and a cleaner path into execution, not months of vague recommendations or outsourced implementation sludge.
             </p>
           </div>
         </div>
