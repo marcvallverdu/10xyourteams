@@ -2,19 +2,19 @@ export default function AuditPage() {
   return (
     <div className="min-h-screen">
       <section className="bg-navy min-h-[72vh] flex flex-col">
-        <nav className="max-w-[1200px] mx-auto px-10 md:px-20 py-6 flex items-center justify-between w-full">
-          <a href="/" className="font-sans font-semibold text-[17px] text-white">
+        <nav className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 py-5 md:py-6 flex items-center justify-between gap-3 w-full">
+          <a href="/" className="font-sans font-semibold text-[17px] sm:text-[19px] text-white shrink-0">
             10xyourteams.com
           </a>
           <a
             href="https://cal.com/marcvallverdu/20min"
-            className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
+            className="bg-terracotta text-white text-[12px] sm:text-[14px] font-semibold px-3.5 sm:px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity shrink-0 whitespace-nowrap"
           >
-            Book a 20-minute call
+            Book a call
           </a>
         </nav>
 
-        <div className="max-w-[1200px] mx-auto px-10 md:px-20 flex-1 flex items-center w-full">
+        <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 flex-1 flex items-center w-full">
           <div className="py-10 w-full max-w-[760px]">
             <h1 className="font-sans font-bold text-[2.8rem] md:text-[4rem] text-white leading-[1.05] max-w-[760px]">
               AI Leverage Audit

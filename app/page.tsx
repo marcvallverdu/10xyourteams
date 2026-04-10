@@ -4,7 +4,7 @@ export default function Home() {
       {/* ─── HERO (navy) ─── */}
       <section className="bg-navy min-h-[100vh] flex flex-col">
         <nav className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 py-5 md:py-6 flex items-center justify-between gap-3 w-full">
-          <span className="font-sans font-semibold text-[15px] sm:text-[17px] text-white shrink-0">
+          <span className="font-sans font-semibold text-[17px] sm:text-[19px] text-white shrink-0">
             10xyourteams.com
           </span>
           <a
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-20 flex-1 flex items-center w-full">
           <div className="py-8 md:py-10 w-full">
             <h1
-              className="font-display text-[4.25rem] sm:text-[5rem] md:text-[8.5rem] lg:text-[11rem] leading-[0.88] text-white uppercase"
+              className="font-display text-[5.1rem] sm:text-[5.8rem] md:text-[8.5rem] lg:text-[11rem] leading-[0.84] text-white uppercase"
               style={{ letterSpacing: "-3px" }}
             >
               10X
@@ -43,20 +43,20 @@ export default function Home() {
                 </svg>
               </span>
             </h1>
-            <p className="mt-6 md:mt-7 text-[16px] md:text-[17px] text-[#C0BAB0] max-w-[560px] leading-[1.55]">
-              <span className="block text-white font-semibold mb-2">
+            <div className="mt-6 md:mt-7 max-w-[560px] space-y-3">
+              <p className="text-[16px] md:text-[17px] text-white font-semibold leading-[1.45]">
                 Same headcount. 10x the output.
-              </span>
-              <span className="block text-[#E5DED3] mb-2">
+              </p>
+              <p className="text-[16px] md:text-[17px] text-[#E5DED3] leading-[1.45]">
                 From AI experiments to operational advantage.
-              </span>
-              10xyourteams helps ambitious ops leaders redesign how work gets
-              done, so AI becomes a real advantage across the team, not just
-              another tool people use occasionally.
-            </p>
-            <p className="mt-3 text-[13px] md:text-[14px] text-[#8A95A8] max-w-[520px]">
-              Built by a COO doing this inside a 1,000-person company right now.
-            </p>
+              </p>
+              <p className="text-[15px] md:text-[16px] text-[#C0BAB0] leading-[1.6]">
+                We help ops leaders redesign how work gets done, so AI becomes part of the operating model, not just another tool.
+              </p>
+              <p className="text-[13px] md:text-[14px] text-[#8A95A8] leading-[1.55]">
+                Built by a COO doing this inside a 1,000-person company right now.
+              </p>
+            </div>
             <div className="mt-6 md:mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a
                 href="https://cal.com/marcvallverdu/20min"
