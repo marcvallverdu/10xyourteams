@@ -325,7 +325,7 @@ export default function Home() {
           </span>
           <div className="flex gap-8 text-[14px] text-navy/60">
             <a
-              href="https://wyww.co"
+              href="https://wyww.substack.com"
               className="hover:text-navy transition-colors"
             >
               WYWW Newsletter
