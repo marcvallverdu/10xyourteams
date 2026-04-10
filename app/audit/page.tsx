@@ -7,7 +7,7 @@ export default function AuditPage() {
             10xyourteams.com
           </a>
           <a
-            href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
+            href="https://cal.com/marcvallverdu/20min"
             className="bg-terracotta text-white text-[14px] font-semibold px-5 py-2.5 rounded-[7px] hover:opacity-90 transition-opacity"
           >
             Book a 20-minute call
@@ -30,7 +30,7 @@ export default function AuditPage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
+                href="https://cal.com/marcvallverdu/20min"
                 className="inline-block bg-terracotta text-white text-[15px] font-semibold px-7 py-3.5 rounded-[8px] hover:opacity-90 transition-opacity"
               >
                 Book a 20-minute call →
@@ -189,7 +189,7 @@ export default function AuditPage() {
               </p>
             </div>
             <a
-              href="mailto:marc@10xyourteams.com?subject=AI%20Leverage%20Audit"
+              href="https://cal.com/marcvallverdu/20min"
               className="shrink-0 bg-terracotta text-white font-semibold text-[15px] px-8 py-3.5 rounded-[7px] hover:opacity-90 transition-opacity"
             >
               Book a 20-minute call →
